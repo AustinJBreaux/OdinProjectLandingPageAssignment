@@ -1,9 +1,23 @@
-header{
+header{/*container*/
     background-color: #1F2937;
-}
-/*headerLogo */
-p{
     display:flex;
+    align-items: flex-start;
+}
+.headerLogo{/*item1*/
+    display:flex;    
+    background-color: aqua;
+}
+.headerMain{
+    display:flex;
+    justify-content: flex-start;
+}
+.headerLinks{
+    display:flex;
+    justify-content: flex-end;
+}
+.headerBody{/*item2*/
+    display:flex;
+    background-color: aquamarine;
 }
 /*headerText */
 /*headerImage
