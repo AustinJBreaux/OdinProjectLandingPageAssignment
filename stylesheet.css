@@ -2,10 +2,15 @@ header{
     background-color: #1F2937;
 }
 /*headerLogo */
+p{
+    display:flex;
+}
 /*headerText */
-/*headerImage */
+/*headerImage
 /*body */
 /*bodyImage */
-/*aside */
+aside{
+    background-color: #e5e7eb;
+}
 /*closingLink */
 /*footer */
