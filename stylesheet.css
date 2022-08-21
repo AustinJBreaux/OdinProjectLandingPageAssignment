@@ -30,8 +30,12 @@ header{/*container*/
 .headerBody{/*item2*/
     display:flex;
     background-color: aquamarine;
+    justify-content: center;
 }
-/*headerText */
+.headerText{
+    display: flex;
+    justify-content: flex-start;
+}
 /*headerImage
 /*body */
 /*bodyImage */
