@@ -1,6 +1,9 @@
 header{/*container*/
     background-color: #1F2937;
     display:flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
 }
 .headerLogoContainer{/*item1*/
     display:flex;
@@ -21,14 +24,6 @@ header{/*container*/
     justify-content: space-between;
     margin: 8px;
 }
-/*Making a note here, so I can't seem to figure out how 
-to make nested flex containers work properly, they're 
-just taking the default attributes of the parent container.
-The guide the Odin Project gives us (the internetingishard webpage)
-shows that it's possible, not sure what I'm doing wrong.
-It's probably a specificity issue. Made a lot of changes while
-figuring stuff out, maybe try starting fresh from one of the
-earlier commits I made*/
 .headerBody{/*item2*/
     display:flex;
     background-color: aquamarine;
