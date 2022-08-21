@@ -1,20 +1,34 @@
 header{/*container*/
     background-color: #1F2937;
     display:flex;
-    align-items: flex-start;
 }
-.headerLogo{/*item1*/
-    display:flex;    
-    background-color: aqua;
-}
-.headerMain{
+.headerLogoContainer{/*item1*/
     display:flex;
+    justify-content: space-between;
+}
+.headerLogo{
+    display: flex;
     justify-content: flex-start;
+    color:#f9faf8;
+    font-size: 24px;
 }
-.headerLinks{
+.headerLinksContainer{
     display:flex;
-    justify-content: flex-end;
 }
+.headerLink{
+    color:#e5e7eb;
+    font-size:18px;
+    justify-content: space-between;
+    margin: 8px;
+}
+/*Making a note here, so I can't seem to figure out how 
+to make nested flex containers work properly, they're 
+just taking the default attributes of the parent container.
+The guide the Odin Project gives us (the internetingishard webpage)
+shows that it's possible, not sure what I'm doing wrong.
+It's probably a specificity issue. Made a lot of changes while
+figuring stuff out, maybe try starting fresh from one of the
+earlier commits I made*/
 .headerBody{/*item2*/
     display:flex;
     background-color: aquamarine;

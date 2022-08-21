@@ -7,35 +7,37 @@
     <title>Document</title>
     <link href = "stylesheet.css" rel="stylesheet">
 </head>
-<header class="header">
-    <div class="headerLogo">
-    <h2 class="headerMain">
-        <bold>Header Logo</bold> 
-    </h2>
-    <h3 class="headerLinks">
-        header link one<br>
-        header link two<br>
-        header link three<br>
-    </h3>
+
+<header>
+    <div class="header"><!--Flex container-->
+        <div class="headerLogoContainer"><!--Flex item container 1-->
+            <div class="headerLogo"><!--Flex item 1-->
+                Header Logo
+            </div> 
+            <div class="headerLinksContainer"><!-- Flex item 2-->
+                <div class="headerLink" href="blank">header link one</div>
+                <div class="headerLink" href="blank">header link two</div>
+                <div class="headerLink" href="blank">header link three</div>
+            </div>
     </div>
-    <div class="headerBody">
-    <p class="headerBody">
+    <div class="headerBody"><!--Flex item 2-->
         <div class="headerText">
-        <h1>
-            This website is awesome
-        </h1>
-        This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast
+            <h1>
+                This website is awesome
+            </h1>
+            This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast
         </div>
         <div class="headerImage">
             <img href="blank"> 
             <figcaption>
                 this is a placeholder for an image
             </figcaption>
+            </img>
         </div>
-        </img>
-    </p>
+    </div>
     </div>
 </header> 
+
 <body class="body">
     <h2>
         Some random information.
@@ -44,6 +46,7 @@
         this is some subtext under an illustration or image
     </div>
 </body>
+
 <aside class="aside">
     <h1> 
         <i>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</i>
@@ -51,10 +54,13 @@
     <h4><bold>-Thor, God of Thunder</bold></h4>
     <!--Make that Thor segment alligned to the right-->
 </aside>
+
 <div class="closingLink">
     Final div/call to action
 </div>
+
 <footer class="footer">
     Copyright @ The Odin Project 2021
 </footer>
+
 </html>
