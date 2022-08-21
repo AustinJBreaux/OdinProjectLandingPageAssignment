@@ -16,7 +16,7 @@ header{/*container*/
     justify-content: flex-start;
     color:#f9faf8;
     font-size: 24px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 .headerLinksContainer{
     display:flex;
@@ -27,16 +27,31 @@ header{/*container*/
     justify-content: space-between;
     margin: 8px;
 }
-.headerBody{/*item2*/
-    display:flex;
+.headerBodyContainer{/*item container 2*/
     background-color: aquamarine;
-    justify-content: center;
+    display:flex;
 }
-.headerText{
+.headerBody{
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
+    border: 2px solid green;
 }
-/*headerImage
+.headerBodyText{
+    display: flex;
+    border: 2px solid pink;
+}
+.headerBodySubtext{
+    display: flex;
+    border: 2px solid purple;
+    align-items: flex-end;
+}
+.headerImage{
+
+}
+/*So I'm having diffculty getting the text where I want it, but major
+progress today! Continue tomorrow, and really look into getting a
+mini laptop specifically for this. Or, downloading everything to the code
+editor you already have, and seeing if it has a live browser or something*/
 /*body */
 /*bodyImage */
 aside{
