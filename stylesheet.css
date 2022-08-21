@@ -4,6 +4,7 @@ header{/*container*/
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 5%;
+    padding-top: 1%;
 }
 .headerLogoContainer{/*item1*/
     display:flex;
