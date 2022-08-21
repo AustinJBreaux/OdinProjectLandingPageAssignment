@@ -8,12 +8,14 @@ header{/*container*/
 .headerLogoContainer{/*item1*/
     display:flex;
     justify-content: space-between;
+    padding-bottom: 8%;
 }
 .headerLogo{
     display: flex;
     justify-content: flex-start;
     color:#f9faf8;
     font-size: 24px;
+    font-weight: bold;
 }
 .headerLinksContainer{
     display:flex;
